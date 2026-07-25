@@ -1,4 +1,4 @@
-# Verifiable Lucid
+# VeriLucid
 
 This repository extends [Dafny](https://dafny.org) with a backend that translates Dafny programs into [Lucid](https://github.com/PrincetonUniversity/lucid) programs.
 
