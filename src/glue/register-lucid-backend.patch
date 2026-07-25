@@ -1,0 +1,15 @@
+diff --git a/Source/DafnyCore/Backends/InternalBackendsPluginConfiguration.cs b/Source/DafnyCore/Backends/InternalBackendsPluginConfiguration.cs
+index d8b1c1deb..33b73dda8 100644
+--- a/Source/DafnyCore/Backends/InternalBackendsPluginConfiguration.cs
++++ b/Source/DafnyCore/Backends/InternalBackendsPluginConfiguration.cs
+@@ -15,7 +15,8 @@ internal class InternalBackendsPluginConfiguration : Plugins.PluginConfiguration
+       new CppBackend(options),
+       new LibraryBackend(options),
+       new RustBackend(options),
+-      new ResolvedDesugaredExecutableDafnyBackend(options)
++      new ResolvedDesugaredExecutableDafnyBackend(options),
++      new LucidBackend(options)
+     ];
+   }
+ }
+\ No newline at end of file
