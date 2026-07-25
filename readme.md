@@ -1,6 +1,6 @@
-# Verifiable Lucid Compiler
+# Verifiable Lucid
 
-This repository extends [Dafny](https://dafny.org) with a backend that translates Dafny programs into Lucid (`.dpt`) programs.
+This repository extends [Dafny](https://dafny.org) with a backend that translates Dafny programs into [Lucid](https://github.com/PrincetonUniversity/lucid) programs.
 
 ## Repository layout
 
